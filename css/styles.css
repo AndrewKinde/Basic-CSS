@@ -1,0 +1,150 @@
+.topContainer{
+    background-color: #264653;
+    height: 100vh;
+    position: relative;
+}
+
+.middleContainer{
+    padding-top: 100px;
+}
+
+.bottomContainer{
+    background-color: #264653;
+    padding: 60px 0px 20px;
+    margin-top: 100px;
+}
+
+.cloudTop{
+    position: absolute;
+    right:400px;
+    top:100px;
+    height: 4rem;
+}
+
+.cloudBottom{
+    position:absolute;
+    left:400px;
+    bottom:500px;
+    height: 5rem;
+}
+
+.mountain{
+    position: absolute;
+    bottom: 0;
+    left: 27vw;
+    width: 50vw;
+}
+
+.profilePic{
+    border-radius: 100%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.musicIcon{
+    width: 25%;
+    float: left;
+    margin-right:60px;
+}
+
+.videoIcon{
+    width: 25%;
+    float: right;
+    margin-left:60px;
+}
+
+.copyright{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.footer-link{
+    outline: none;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    background: #E9C46A;
+    background-image: -webkit-linear-gradient(top, #E9C46A, #F4A261);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #778DA9;
+    background-image: -webkit-linear-gradient(top, #F4A261, #E76F51);
+    text-decoration: none;
+  }
+
+  .profile{
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-me{
+    width: 50%;
+    margin: auto;
+  }
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+}
+h1{
+    font-family: 'Corinthia', cursive;
+    font-size: 9.375rem;
+    color: #E9C46A;
+    margin: 0;
+    padding-top: 7%;
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #F4A261;
+    font-weight: normal;
+    margin-top: 70px;
+}
+
+h3{
+    color:#E76F51;
+}
+
+a{
+    color: #E76F51;
+}
+
+hr{
+    border: none;
+    border-top:10px dotted;
+    color:#939393 ;
+    width: 10%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a:hover{
+   color: #ffffff; 
+}
